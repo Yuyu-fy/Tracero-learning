@@ -1,0 +1,15 @@
+{
+  "evidence_type": "navigation_failed",
+  "evidence": [
+    {
+      "evidence_id": "E-01",
+      "type": "runtime",
+      "content": "local_costmap update delay = 340ms"
+    },
+    {
+      "evidence_id": "E-02",
+      "type": "source_code",
+      "content": "controller_server.cpp:387 uses previous costmap data"
+    }
+  ]
+}
